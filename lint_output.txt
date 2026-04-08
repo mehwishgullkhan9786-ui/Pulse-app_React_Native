@@ -1,0 +1,58 @@
+
+> pulse-app@1.0.0 lint
+> expo lint
+
+
+C:\Users\mehwish.gull\React_NativeProject2\pulse-app\app\(tabs)\Feeds.tsx
+  6:9  warning  'width' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\mehwish.gull\React_NativeProject2\pulse-app\app\(tabs)\Profile.tsx
+  9:3  warning  'Image' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\mehwish.gull\React_NativeProject2\pulse-app\app\(tabs)\index.tsx
+    9:8   warning  'C:\Users\mehwish.gull\React_NativeProject2\pulse-app\node_modules\react-native\index.js' imported multiple times  import/no-duplicates
+   36:6   warning  React Hook useEffect has a missing dependency: 'translateX'. Either include it or remove the dependency array      react-hooks/exhaustive-deps
+  272:1   warning  Import in body of module; reorder to top                                                                           import/first
+  272:26  warning  'C:\Users\mehwish.gull\React_NativeProject2\pulse-app\node_modules\react-native\index.js' imported multiple times  import/no-duplicates
+
+C:\Users\mehwish.gull\React_NativeProject2\pulse-app\app\(tabs)\weathers.tsx
+  23:16  warning  'SCREEN_WIDTH' is assigned a value but never used                                                                               @typescript-eslint/no-unused-vars
+  30:10  warning  'loading' is assigned a value but never used                                                                                    @typescript-eslint/no-unused-vars
+  88:6   warning  React Hook useEffect has missing dependencies: 'floatAnim' and 'pulseAnim'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\mehwish.gull\React_NativeProject2\pulse-app\app\index.tsx
+  55:6  warning  React Hook useEffect has missing dependencies: 'floatValue', 'pulseValue', 'rotateValue', and 'router'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\mehwish.gull\React_NativeProject2\pulse-app\app\login.tsx
+   12:22  warning  'C:\Users\mehwish.gull\React_NativeProject2\pulse-app\node_modules\expo-router\build\index.js' imported multiple times  import/no-duplicates
+   14:27  warning  'C:\Users\mehwish.gull\React_NativeProject2\pulse-app\node_modules\expo-router\build\index.js' imported multiple times  import/no-duplicates
+   26:9   warning  'width' is assigned a value but never used                                                                              @typescript-eslint/no-unused-vars
+   41:6   warning  React Hook useEffect has a missing dependency: 'pulseValue'. Either include it or remove the dependency array           react-hooks/exhaustive-deps
+  146:16  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                         react/no-unescaped-entities
+
+C:\Users\mehwish.gull\React_NativeProject2\pulse-app\app\privacy.tsx
+   1:19  warning  'C:\Users\mehwish.gull\React_NativeProject2\pulse-app\node_modules\react\index.js' imported multiple times         import/no-duplicates
+   2:24  warning  'C:\Users\mehwish.gull\React_NativeProject2\pulse-app\node_modules\react-native\index.js' imported multiple times  import/no-duplicates
+   3:26  warning  'C:\Users\mehwish.gull\React_NativeProject2\pulse-app\node_modules\react\index.js' imported multiple times         import/no-duplicates
+   4:10  warning  'Button' is defined but never used                                                                                 @typescript-eslint/no-unused-vars
+  14:3   warning  'Image' is defined but never used                                                                                  @typescript-eslint/no-unused-vars
+  15:8   warning  'C:\Users\mehwish.gull\React_NativeProject2\pulse-app\node_modules\react-native\index.js' imported multiple times  import/no-duplicates
+
+C:\Users\mehwish.gull\React_NativeProject2\pulse-app\app\signup.tsx
+  12:22  warning  'C:\Users\mehwish.gull\React_NativeProject2\pulse-app\node_modules\expo-router\build\index.js' imported multiple times  import/no-duplicates
+  14:27  warning  'C:\Users\mehwish.gull\React_NativeProject2\pulse-app\node_modules\expo-router\build\index.js' imported multiple times  import/no-duplicates
+  26:9   warning  'width' is assigned a value but never used                                                                              @typescript-eslint/no-unused-vars
+  41:6   warning  React Hook useEffect has a missing dependency: 'pulseValue'. Either include it or remove the dependency array           react-hooks/exhaustive-deps
+
+C:\Users\mehwish.gull\React_NativeProject2\pulse-app\app\twofactor.tsx
+   1:19  warning  'C:\Users\mehwish.gull\React_NativeProject2\pulse-app\node_modules\react\index.js' imported multiple times         import/no-duplicates
+  11:8   warning  'C:\Users\mehwish.gull\React_NativeProject2\pulse-app\node_modules\react-native\index.js' imported multiple times  import/no-duplicates
+  15:24  warning  'C:\Users\mehwish.gull\React_NativeProject2\pulse-app\node_modules\react-native\index.js' imported multiple times  import/no-duplicates
+  16:26  warning  'C:\Users\mehwish.gull\React_NativeProject2\pulse-app\node_modules\react\index.js' imported multiple times         import/no-duplicates
+
+C:\Users\mehwish.gull\React_NativeProject2\pulse-app\components\RevenueChart.tsx
+  2:34  warning  'Dimensions' is defined but never used  @typescript-eslint/no-unused-vars
+
+Γ£û 30 problems (1 error, 29 warnings)
+  0 errors and 8 warnings potentially fixable with the `--fix` option.
+

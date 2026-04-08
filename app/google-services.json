@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1058030567269",
+    "project_id": "pulse-app-b244f",
+    "storage_bucket": "pulse-app-b244f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058030567269:android:8a116c2a4f16f76e43eb8c",
+        "android_client_info": {
+          "package_name": "com.Infotech.pulse_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB49tee_ggNlQfzwo-lSaR6auJJ32zQ_ts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
