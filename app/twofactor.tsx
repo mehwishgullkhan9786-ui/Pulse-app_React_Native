@@ -470,7 +470,7 @@ export default function TwoFactorScreen() {
               ) : (
                 <View style={styles.modalBody}>
                   <Text style={styles.modalSub}>
-                    We've sent a 6-digit code to +92 {phoneNumber}. Use 123456
+                    We&apos;ve sent a 6-digit code to +92 {phoneNumber}. Use 123456
                     for testing.
                   </Text>
                   <View style={styles.inputContainer}>
