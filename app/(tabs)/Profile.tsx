@@ -32,7 +32,6 @@ export default function ProfileScreen() {
           if (docSnap.exists()) {
             setUserData(docSnap.data());
           } else {
-            // Fallback for email if username not found
             setUserData({
               email: user.email,
               username: user.displayName || "User",
@@ -201,7 +200,7 @@ const styles = StyleSheet.create({
   },
   profileHeader: {
     alignItems: "center",
-    marginTop: 20,
+    marginTop: 40,
     marginBottom: 40,
   },
   avatarGlow: {
@@ -218,8 +217,9 @@ const styles = StyleSheet.create({
     elevation: 8,
   },
   avatarContainer: {
-    width: 110,
-    height: 110,
+
+    width: 100,
+    height: 100,
     borderRadius: 55,
     backgroundColor: "#0C101A",
     justifyContent: "center",

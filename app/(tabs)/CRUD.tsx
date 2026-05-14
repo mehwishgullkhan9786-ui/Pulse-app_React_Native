@@ -275,7 +275,7 @@ export default function HomeScreen() {
               <Text style={styles.formHeaderText}>Resource Management</Text>
 
               <View style={styles.form}>
-                <View style={styles.inputWrapper}>
+                <View style={[styles.inputWrapper, { zIndex: 1000, elevation: 1000 }]}>
                   <Text style={styles.labeltext}>SELECT Target parent</Text>
 
                   <TouchableOpacity
@@ -635,7 +635,8 @@ const styles = StyleSheet.create({
     marginBottom: 40,
   },
   headerText: {
-    fontSize: 28,
+    marginTop: 20,
+    fontSize: 24,
     fontWeight: "900",
     color: "#00E5FF",
     letterSpacing: 4,
@@ -651,6 +652,7 @@ const styles = StyleSheet.create({
     shadowRadius: 10,
     shadowOpacity: 0.5,
     elevation: 5,
+     marginBottom: 20,
   },
   formContainer: {
     flex: 1,
@@ -695,6 +697,7 @@ const styles = StyleSheet.create({
   },
   inputWrapper: {
     width: "100%",
+  
   },
   inputContainer: {
     flexDirection: "row",
@@ -753,18 +756,24 @@ const styles = StyleSheet.create({
     borderColor: "rgba(0, 229, 255, 0.15)",
     height: 58,
     paddingHorizontal: 15,
+    position: "relative",
   },
   dropdownHeaderText: {
     color: "#FFFFFF",
     fontSize: 16,
   },
   dropdownList: {
-    marginTop: 5,
+    top: 85,
+    left: 0,
+    right: 0,
     backgroundColor: "rgba(20, 17, 36, 0.98)",
     borderRadius: 16,
     borderWidth: 1,
     borderColor: "rgba(0, 229, 255, 0.3)",
     overflow: "hidden",
+    position: "absolute",
+    zIndex: 1000,
+    elevation: 1000,
   },
   dropdownItem: {
     paddingVertical: 15,
